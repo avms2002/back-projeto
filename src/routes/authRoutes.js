@@ -5,5 +5,6 @@ const { register, login, recoverPassword } = require('../controllers/authControl
 router.post('/register', register)
 router.post('/login', login)
 router.post('/recover', recoverPassword)
+router.post('/reset-password', resetPassword);
 
 module.exports = router
