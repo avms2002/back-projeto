@@ -13,6 +13,10 @@ app.use('/uploads', express.static('src/uploads'))
 app.use('/api/auth', authRoutes)
 app.use('/api/user', userRoutes)
 app.use('/api/tasks', taskRoutes)
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Erro interno do servidor' });
+  });
 
 const PORT = process.env.PORT || 3000
 app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`))
