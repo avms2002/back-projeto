@@ -12,10 +12,10 @@
 ## 💻 Funcionalidades
 
 - Cadastro e login de usuários
-- Recuperação de senha por e-mail
+- Recuperação de senha por e-mail - Em Desenvolvimento
 - Criação, edição e exclusão de tarefas
 - Tarefas categorizadas (trabalho, pessoal, desejos)
-- Estatísticas de produtividade
+- Estatísticas de produtividade - Em desenvolvimento
 
 ## ⚙️ Como usar
 
